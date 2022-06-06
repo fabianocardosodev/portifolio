@@ -1,3 +1,27 @@
-h1 {
-    background-image: url(img/blur-business.jpg);
-}
+    * {
+        margin: 2px;
+        padding: 2px;
+        box-sizing: border-box;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    header {
+        min-height: 9vh;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        background-color: #fff;
+    }
+    
+    header h1 {
+        font-size: 2em;
+        color: #0166e1;
+    }
+    
+    main {
+        width: 100%;
+        min-height: 100vh;
+        background-image: linear-gradient(#fff, #0166e1);
+    }
