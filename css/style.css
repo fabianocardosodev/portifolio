@@ -1,50 +1,59 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: "Kdam Thmor Pro", sans-serif;
-        text-decoration: none;
-        color: rgb(165, 164, 164);
-    }
-    
-    header {
-        min-height: 9vh;
-        display: flex;
-        align-items: right;
-        justify-content: right;
-        background-color: rgb(8, 2, 34);
-        height: 80px;
-    }
-    
-    header h1 {
-        font-size: 2em;
-        color: #0166e1;
-    }
-    
-    main {
-        width: 100%;
-        min-height: 100vh;
-        background-image: linear-gradient(#04032c, #09356b);
-    }
-    
-    .menu-opcoes ul li {
-        display: inline;
-        font-size: 20px;
-        margin-left: 20px;
-        position: relative;
-        float: right;
-        right: 200px;
-        top: 20px;
-    }
-    
-    #img-redonda {
-        height: 250px;
-        width: 300px;
-        border-radius: 100%;
-        margin-left: 100px;
-        margin-top: 100px;
-    }
-    
-    span {
-        margin-left: 120px;
-    }
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: "Kdam Thmor Pro", sans-serif;
+      text-decoration: none;
+      color: rgb(165, 164, 164);
+  }
+  
+  header {
+      min-height: 9vh;
+      display: flex;
+      align-items: right;
+      justify-content: right;
+      background-color: rgb(8, 2, 34);
+      height: 80px;
+  }
+  
+  header h1 {
+      font-size: 2em;
+      color: #0166e1;
+  }
+  
+  main {
+      width: 100%;
+      min-height: 100vh;
+      background-image: linear-gradient(#04032c, #09356b);
+  }
+  
+  .menu-opcoes ul li {
+      display: inline;
+      font-size: 20px;
+      margin-left: 20px;
+      position: relative;
+      float: right;
+      right: 200px;
+      top: 20px;
+  }
+  
+  #img-redonda {
+      height: 250px;
+      width: 300px;
+      border-radius: 100%;
+      margin-left: 100px;
+      margin-top: 100px;
+  }
+  
+  span {
+      margin-left: 150px;
+  }
+  
+  aside {
+      margin-left: 230px;
+  }
+  
+  .fa-brands a {
+      width: 100px;
+      height: 100px;
+  }
