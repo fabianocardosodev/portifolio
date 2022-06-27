@@ -37,11 +37,19 @@
      top: 20px;
  }
  
+ .menu-opções ul li a {
+     transition: 0.2s ease in out;
+ }
+ 
+ .menu-opções ul li a:hover {
+     color: #18acfe;
+ }
+ 
  #img-redonda {
-     height: 250px;
-     width: 300px;
+     height: 230px;
+     width: 250px;
      border-radius: 100%;
-     margin-left: 100px;
+     margin-left: 120px;
      margin-top: 100px;
  }
  
